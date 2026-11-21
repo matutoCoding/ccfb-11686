@@ -1,3 +1,16 @@
+node_modules/
+dist/
+*.log
+
+# 浏览器/编辑器
+.DS_Store
+.idea/
+.vscode/
+*.local
+
+# Vite 缓存
+.vite/
+
 .env
 .env.*
 !.env.example
@@ -12,7 +25,6 @@ secrets.*
 credentials*.json
 .npmrc
 .pypirc
-node_modules/
 __pycache__/
 .venv/
 venv/
